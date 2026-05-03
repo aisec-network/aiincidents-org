@@ -4,6 +4,8 @@ description: "AI Incidents catalogs AI/ML incidents and vulnerabilities — date
 pubDate: 2026-05-03
 tags: ["meta"]
 category: "site"
+heroImage: https://aisec-imagegen.th3gptoperator.workers.dev/featured/aiincidents.org/welcome.png
+heroAlt: "What this site is for"
 ---
 
 AI Incidents is a tracker. We catalog AI/ML incidents and vulnerabilities so practitioners and analysts have a single place to check what's happened, when, and where to read more.
