@@ -14,7 +14,7 @@ sources:
     url: "https://atlas.mitre.org/studies/"
 schema:
   type: "Article"
-heroImage: https://aisec-imagegen.th3gptoperator.workers.dev/?prompt=urgent%20editorial%20news%20room%2C%20red%20accent%20masthead%2C%20professional%20journalism%20aesthetic&aspect=hero
+heroImage: https://aisec-imagegen.th3gptoperator.workers.dev/featured/aiincidents.org/ai-incident-logging-methodology.png
 heroAlt: "AI incident reporting methodology"
 ---
 
