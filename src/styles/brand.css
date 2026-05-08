@@ -1,24 +1,35 @@
-/* Brand for aiincidents-org: cluster=news, variant=v7_bold_caps_zine */
-@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap");
+/* Brand for aiincidents-org: identity=f03_serif_garamond_publicsans+p18_h101_warm+magazine+v05_reviews */
 
-body[data-cluster='news'] {
-  --bg: 254 252 232;
-  --fg: 28 25 23;
-  --surface: 254 249 195;
-  --muted: 254 252 232;
-  --muted-fg: 146 64 14;
-  --border: 146 64 14;
-  --font-display: "Source Serif 4", system-ui, sans-serif;
-  --font-body: "Source Sans 3", system-ui, sans-serif;
-  --accent-400: 202 138 4;
-  --accent-500: 202 138 4;
-  --accent-600: 202 138 4;
-  --accent-700: 202 138 4;
-  --brand-tone: "incident-amber";
-  --brand-accent-rgb: 202 138 4;
-  --brand-variant: "v7_bold_caps_zine";
+body[data-cluster] {
+  --bg: 255 253 250;
+  --fg: 38 30 18;
+  --muted: 253 250 242;
+  --muted-fg: 120 100 72;
+  --border: 232 222 200;
+  --surface: 255 253 250;
+  --surface-alt: 253 250 242;
+  --font-display: "EB Garamond", "Iowan Old Style", Georgia, serif;
+  --font-body: "Public Sans", "Helvetica Neue", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --brand-accent-rgb: 94 219 36;
+  --brand-identity-font: "f03_serif_garamond_publicsans";
+  --brand-identity-palette: "p18_h101_warm";
+  --brand-identity-layout: "magazine";
+  --brand-identity-voice: "v05_reviews";
 }
-html.dark body[data-cluster='news'] {
-  --bg: 254 252 232; --fg: 28 25 23; --surface: 254 249 195;
-  --accent-500: 202 138 4; --accent-600: 202 138 4;
+
+html.dark body[data-cluster] {
+  --bg: 22 18 12;
+  --fg: 248 242 228;
+  --muted: 34 28 20;
+  --muted-fg: 180 168 140;
+  --border: 60 50 36;
+  --surface: 22 18 12;
+  --surface-alt: 34 28 20;
+  --brand-accent-rgb: 129 238 79;
 }
+
+/* Density modifiers */
+body.density-loose  { --space-section: 5rem; }
+body.density-normal { --space-section: 3rem; }
+body.density-dense  { --space-section: 1.5rem; }
