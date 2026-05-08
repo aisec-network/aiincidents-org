@@ -11,7 +11,7 @@ body[data-cluster] {
   --font-display: "EB Garamond", "Iowan Old Style", Georgia, serif;
   --font-body: "Public Sans", "Helvetica Neue", system-ui, sans-serif;
   --font-mono: "IBM Plex Mono", ui-monospace, monospace;
-  --brand-accent-rgb: 94 219 36;
+  --brand-accent-rgb: 0 0 0;
   --brand-identity-font: "f03_serif_garamond_publicsans";
   --brand-identity-palette: "p18_h101_warm";
   --brand-identity-layout: "magazine";
@@ -26,7 +26,7 @@ html.dark body[data-cluster] {
   --border: 60 50 36;
   --surface: 22 18 12;
   --surface-alt: 34 28 20;
-  --brand-accent-rgb: 129 238 79;
+  --brand-accent-rgb: 255 255 255;
 }
 
 /* Density modifiers */
