@@ -27,7 +27,7 @@ We classify an event as an AI security incident if it meets at least two of thes
 1. **AI-system-mediated harm**: the harm flows through the behavior of an ML model or LLM, not just from a system that happens to use AI internally.
 2. **Adversarial or unintended cause**: the incident was caused by deliberate attack (prompt injection, data poisoning, model extraction) or unintentional misalignment (hallucinated outputs, reward hacking, safety failures).
 3. **Material impact**: actual users, customers, or third parties were affected — not just a published vulnerability that was patched before exploitation.
-4. **First-party or credible third-party reporting**: there's a primary source we can cite — vendor advisory, court filing, regulator action, peer-reviewed disclosure, or reporting from a publication that demonstrates verification.
+4. **First-party or credible third-party reporting**: there's a primary source we can cite — vendor [advisory](https://ai-alert.org/), court filing, regulator action, peer-reviewed disclosure, or reporting from a publication that demonstrates verification.
 
 If an event meets fewer than two, we may track it internally but won't publish until the criteria converge. This filters out a lot of "AI did a bad thing on Twitter" incidents that don't have enough signal to verify.
 
@@ -118,3 +118,5 @@ Each update carries a date and a one-line summary at the top of the entry. We do
 The AI security beat is full of high-velocity, low-rigor reporting. Twitter threads claim breaches that didn't happen. AI-summarized news sites republish each other's errors. A serious reader who wants to understand what's actually happening needs a publication that does the verification work and shows its sources.
 
 That's our job. The methodology is the product.
+
+For more context, [AI security digest](https://aisecdigest.com/) covers related topics in depth.
